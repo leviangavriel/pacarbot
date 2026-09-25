@@ -14,7 +14,7 @@ client.on('qr', qr => {
     qrcode.generate(qr, {small: true});
 });
 
-client.on('ready', () => console.log('BOT PACAR SIAP ❤️'));
+client.on('ready', () => console.log('aku siap sayang❤️'));
 client.on('message', async msg => {
     if(msg.from === PACAR && msg.body.toLowerCase().includes('ngantuk')){
         msg.reply('Bobo ya cantik 🌙 mimpiin aku ya ❤️');
