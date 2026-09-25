@@ -7,7 +7,7 @@ const client = new Client({
     puppeteer: { args: ['--no-sandbox'] }
 });
 
-const PACAR = '628xxxxxxxxxx@c.us'; // GANTI NOMOR PACAR KAMU
+const PACAR = '6282233209983@c.us'; // GANTI NOMOR PACAR KAMU
 
 client.on('qr', qr => {
     console.log('SCAN QR INI:');
